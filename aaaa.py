@@ -21,6 +21,6 @@ vcard_icerik = (
 qr = segno.make(vcard_icerik, error='h')
 
 # Dosyayı siyah üzerine beyaz (klasik) kaydedelim
-qr.save("atakan_vcard_guncel.png", scale=10, dark="black", light="white")
+qr.save(r"C:\Users\Atakan\Desktop\atakan_vcard_guncel.png", scale=10, dark="black", light="white")
 
 print("Tamamdır Atakan, gıcır gıcır QR kodun 'atakan_vcard_guncel.png' adıyla hazırlandı!")
